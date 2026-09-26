@@ -66,5 +66,5 @@ def analytics(request: RequestData):
             )
         }
 
-    return result
+    return {"regions": result}
 
